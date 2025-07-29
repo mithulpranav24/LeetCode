@@ -9,9 +9,8 @@ class Solution:
                 return mid
             elif nums[mid] < target:
                 l = mid + 1
-                print(mid)
             else:
                 h = mid - 1
-                print(mid)
+        return l
 
 print(Solution().searchInsert([1,3,5,7], 9))
